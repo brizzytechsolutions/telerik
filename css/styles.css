@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Source Serif Pro:ital,wght@0,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Wix+Madefor+Text&display=swap');
+
+
+body {
+    margin: 0;
+}
+
+.landing-container {
+    height: 500px;
+    background-image: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.nav {
+    font-family: 'Wix Madefor Text', Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    background-color: #4b4a4a;
+    color: white;
+}
+
+.nav-logo {
+    display: flex;
+    gap: 3px;
+}
+
+.logo {
+    width: 15px;
+    height: 15px;
+    margin-top: 17px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 0.8em;
+}
+
+.my-menu {
+    text-transform: uppercase;
+}
+
+.accounts {
+    text-transform: capitalize;
+}
+
+.bg-img {
+    height: 89.9%;
+    background-color: rgb(153, 181, 208);
+    opacity: 0.5;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.jumbotron {
+    margin-top: 10%;
+}
+
+.jumbotron h1 {
+    font-family: 'Source Serif Pro', Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-size: 6em;
+    margin: 0;
+}
+
+.jumbotron p {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0;
+}
+
+.platforms {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    zoom: 80%;
+}
+
+.card {
+    width: 23%;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 2%;
+    text-align: center;
+}
+
+.my-btn {
+    background-color: rgb(52, 167, 52);
+    color: white;
+    border-color: rgb(52, 167, 52);
+    padding: 2%;
+}
+
+.card h3 {
+    margin-top: -52px;
+    /* width: 35%; */
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* float: none; */
+    left: 20%;
+
+}
